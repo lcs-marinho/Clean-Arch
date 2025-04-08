@@ -11,6 +11,7 @@ public class Usuario {
     private String email;
     private Endereco endereco;
 
+
     public Usuario(String cpf, String nome, LocalDate nascimento, String email) {
         if(cpf == null || !cpf.matches("\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}")) {
             throw new IllegalArgumentException("Cpf inválido");
