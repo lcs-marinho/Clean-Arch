@@ -32,7 +32,7 @@ public class UserConfig {
         return new UsuarioEntityMapper();
     }
 
-
+    
 
 
 }
