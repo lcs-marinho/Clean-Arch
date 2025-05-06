@@ -30,7 +30,9 @@ public class UtilizaUsuariosComArquivos {
                         "-24"), "sivirino@gmail.com"
                 ));
 
-        System.out.println(repositorioDeUsuarioEmArquivo.listarTodos());
+//        System.out.println(repositorioDeUsuarioEmArquivo.listarTodos());
+
+        repositorioDeUsuarioEmArquivo.gravaEmArquivo("usuario.txt");
     }
 
 }
